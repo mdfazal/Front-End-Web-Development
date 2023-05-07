@@ -11,11 +11,12 @@
 </head>
 
 <body>
+    <header>
     <h1>My Goals for the year</h1>
 
-    <hr>
 
-    <nav>
+
+    <nav ara-label="primary navigation">
         <ul>
             <li>
                 <a href="#html">Learn HTML</a>
@@ -25,7 +26,10 @@
             </li>
         </ul>
     </nav>
+    </header>
+
     <hr>
+    <main>
 
     <ul>
         <li>Download an <a href="html.png" download>HTML 5 Icon</a></li>
@@ -33,15 +37,26 @@
         <li>Dial <a href="tel:+91923042904">my phone number</a></li>
         <li>Open in a new tab <a href="https://www.google.com/" target="_blank">Google</a></li>
     </ul>
-<section id="html">
+
+
+<article id="html">
     <hr>
     <h2>Hello World!</h2>
     <p>This is not my <strong>first</strong> webpage</p>
+    <img src="img/html_logo_300x300.png" alt="HTML 5 LOGO" title="I am learning html 5" width="300" height="300">
+    <figure>
+        <figcaption>
+            An example of HTML5 code. 
+        </figcaption>
+        <p>
+            <code>&lt;h1&gt;Hello World&lt;/h1&gt;</code>
+        </p>
+    </figure>
 
     <hr>
-</section>
+</article>
     <h2>Hello World!</h2>
-<section id="vacation">
+<artcile id="vacation">
         <p>This is not my:
         <br> &nbsp;&nbsp;&nbsp;...first webpage
         <br> &nbsp;&nbsp;&nbsp;...first webpage
@@ -49,16 +64,34 @@
             91 Ripon Street<br>
             Kolkata - 700016 <br>
         </address>
+        <figure>
+        <img src="img/vacation.jpg" alt ="Cancun Vacation" title="It's 5 o' Clock somewhere" loading="lazy" width="400" height="267">
+        <figcaption>
+            A caribbean vacation image 
+        </figcaption>
+        </figure>
+        <aside>
+            <details>
+                <summary></summary>
+            </details>
+        </aside>
 
         <!--This is my address-->
         <br> &nbsp;&nbsp;&nbsp;...first webpage <abbr title="Artificial Intelligence"><a href ="https://www.google.com/">AI</a></abbr>
     </p>
-</section>
-
+</artcile>
+</main>
     
     <h2>Hello World!</h2>
     <li>
         <p>This is not my <em>first</em> webpage</p>
+        <figure>
+        <img src="img/caribbean.jpg" alt="Caribbean Beach"  title="I want to visit Caribbean Beach" width="400" height="225"
+        loading="lazy">
+        <figcaption>
+            Caribbean Beach Getaway.
+        </figcaption>
+        </figure>
     </li>    
     <hr>
     &lt;&lt;&lt;&copy; <a href="about.html">MD Fazal</a> &gt;&gt;&gt;
@@ -72,9 +105,10 @@
         <dt>South Pole</dt>
         <dd>I hear this is <strong>Cold</strong></dd>
     </dl>
-
+<footer>
     <p>
         <a href="#">Back to the Top</a>
     </p>
+</footer>
 </body>
 </html>
