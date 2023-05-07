@@ -197,6 +197,40 @@
                 <input type="tel" name="phone" id="phone" placeholder="5555555555" 
                  pattern="[0-9]{3}[0-9]{3}[0-9]{4} required">
             </p>
+            <p>
+                <label for="decade">Favorite Decade: </label>
+                <input type="number" name="decade" id="decade" 
+                min="1950" max="2020" step="10" value="1920"  >
+            </p>
+            <p>
+                <label for="coffee">Favorite Coffee:</label>
+                <select name="coffee" id="coffee" multiple size="5">
+                    <optgroup label="Coffees">
+                        <option value="regular coffee">Regular Coffee</option>
+                        <option value="iced coffee">Iced Coffee</option>
+                    </optgroup>
+                    <optgroup label="Espresso Drinks">
+                        <option value="latte" selected>Latte</option>
+                        <option value="cappuccino">Cappuccino</option>
+                        <option value="cortada">Cortada</option>
+                        <option value="americano">Americano</option>
+                    </optgroup>
+                    <option value="other">Others</option>
+                </select>
+            </p>
+            <!-- <p>
+                <label for="'Coffee">Favorite Coffee:</label>
+                <input type="text" name="coffee" id="coffee" list="coffee-list">
+                <datalist id="coffee-list">
+                    <option value="Coffee">
+                    <option value="latte">
+                    <option value="espresso">
+                    <option value="cortada">
+                    <option value="americano">
+                    <option value="Other">
+                </datalist>
+
+            </p> -->
         </form>
 
     </article>
