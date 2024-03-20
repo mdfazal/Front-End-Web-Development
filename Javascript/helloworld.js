@@ -40,4 +40,6 @@ function save(){
     console.log(count)
 }
 
-save()
+let not = "You have three notification"
+
+console.log(not)
