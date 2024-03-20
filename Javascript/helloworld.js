@@ -43,3 +43,12 @@ function save(){
 let not = "You have three notification"
 
 console.log(not)
+
+let welcomeEl = document.getElementById("welcome-el")
+let name = "Fazal"
+let greeting = "Hi, my name is "
+
+welcomeEl.innerText = greeting + name
+
+//console.log(myGreeting)
+
