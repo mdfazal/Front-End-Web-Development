@@ -28,27 +28,49 @@
 // bonuspoint = bonuspoint + 50
 // console.log(bonuspoint) 
 
-let count = 0
+// let count = 0
 
-function increment () {
-    count = count + 1
-    document.getElementById("count-el").innerText = count
-    console.log(count)
-}
+// function increment () {
+//     count += 1
+//     document.getElementById("count-el").innerText = count
+//     console.log(count)
+// }
 
-function save(){
-    console.log(count)
-}
+// function save(){
+//     console.log(count)
+// }
 
-let not = "You have three notification"
+// let not = "You have three notification"
 
-console.log(not)
+// console.log(not)
 
-let welcomeEl = document.getElementById("welcome-el")
-let name = "Fazal"
-let greeting = "Hi, my name is "
+// let welcomeEl = document.getElementById("welcome-el")
+// let name = "Previous Entries:"
+// let greeting = 
 
-welcomeEl.innerText = greeting + name
+// welcomeEl.innerText = name + greeting
+
+//welcomeEl.innerText += "Yoo"
+
 
 //console.log(myGreeting)
+
+
+
+let countEl = document.getElementById("count-el")
+let saveEl = document.getElementById("save-el")
+let count = 0
+
+console.log(saveEl)
+
+function increment() {
+    count += 1
+    countEl.innerText = count
+}
+
+function save() {
+    let result = count + "-"
+    saveEl.innerText += result
+    console.log(count)
+}
 
